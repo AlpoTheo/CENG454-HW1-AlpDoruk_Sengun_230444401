@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.51, y: -0.26, z: -90.6}
+  m_LocalRotation: {x: 0.08715578, y: -0, z: -0, w: 0.9961947}
+  m_LocalPosition: {x: 2.6200004, y: -0.9, z: -23.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1399030158}
+  m_LocalEulerAnglesHint: {x: 10, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -593,6 +593,11 @@ MonoBehaviour:
   yawSpeed: 45
   rollSpeed: 45
   thrustSpeed: 5
+--- !u!4 &1399030158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
+  m_PrefabInstance: {fileID: 2020261819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2020261819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -603,15 +608,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.82
+      value: -6.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.38
+      value: 6.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.942616
+      value: 22.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -646,8 +651,12 @@ PrefabInstance:
       value: jet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330585546}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4d9aa4a1d2268c478c6b395e20b14be, type: 3}
       insertIndex: -1
@@ -660,7 +669,6 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 523724858}
