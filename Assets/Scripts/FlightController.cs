@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class FlightController : MonoBehaviour
 {
-    // speed values, adjustable from inspector
-    [SerializeField] float pitchSpeed = 45f;
-    [SerializeField] float yawSpeed = 45f;
-    [SerializeField] float rollSpeed = 45f;
-    [SerializeField] float thrustSpeed = 5f;
+    public float pitchSpeed = 45f;
+    public float yawSpeed = 45f;
+    public float rollSpeed = 45f;
+    public float thrustSpeed = 5f;
 
     Rigidbody rb;
 
